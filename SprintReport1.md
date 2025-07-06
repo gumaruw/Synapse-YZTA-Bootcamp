@@ -50,14 +50,6 @@ Sprint 1 sonunda ortaya çıkan ürün, tüm adımları ve çıktıları şeffaf
 
 Doğrulanabilirlik: Notebook, heyetiniz veya herhangi bir teknik değerlendirici tarafından baştan sona çalıştırılarak sonuçların tekrarlanabilirliği teyit edilebilir.
 
-Kaggle Notebook Ekran Görüntüleri:
-
-(Buraya Kaggle Notebook'unuzdan iki adet ekran görüntüsü ekleyiniz:)
-
-(1. Görüntü: Girdi verilerini ve prompt'u tanımladığınız kod hücresi.)
-
-(2. Görüntü: Bu kod hücresi çalıştırıldıktan sonra Gemini'nin ürettiği analojinin göründüğü çıktı hücresi.)
-
 7. Sprint Değerlendirmesi (Sprint Review)
 
 Sprint sonunda yapılan değerlendirme sonucunda, projenin temel hipotezi olan "AI tabanlı yaratıcı analoji üretimi"nin teknik olarak mümkün olduğu ve başarılı sonuçlar verdiği teyit edilmiştir. Sprint 1 prototipi, projenin potansiyelini ve yenilikçi değerini somut bir şekilde ortaya koymuştur. Bu doğrultuda, Sprint 2 için stratejik karar, Kaggle üzerinde doğrulanan bu çekirdek mantığın, interaktif bir kullanıcı deneyimi sunacak web tabanlı bir arayüze (Streamlit vb.) taşınması olarak belirlenmiştir.
