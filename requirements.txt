@@ -1,0 +1,48 @@
+# Synapse - Requirements.txt
+# YZTA-Bootcamp-Grup-134
+# Yapay Zeka Destekli Medikal Analoji Üreteci
+
+# Core Dependencies
+streamlit>=1.25.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Date and Time
+datetime
+
+# System
+os
+sys
+time
+
+# Optional Dependencies for Development
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Web Framework
+streamlit-option-menu>=0.3.0
+streamlit-extras>=0.3.0
+
+# Security
+cryptography>=41.0.0
+
+# Deployment
+gunicorn>=21.0.0
+docker>=6.0.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+
+# Version Info
+# Python >= 3.9
+# Node.js >= 16.0 (if needed for future features)
+
+# Installation Instructions:
+# pip install -r requirements.txt
+# streamlit run app.py
