@@ -61,7 +61,7 @@ streamlit run app.py
 ```
 
 ### Kaggle Notebook
-Prototip geliştirme için kullanılan Kaggle notebook: [Synapse Prototype](https://www.kaggle.com/code/synapseproject/synapse-medical-analogy-generator)
+Prototip geliştirme için kullanılan Kaggle notebook: 
 
 ## Proje Yönetimi
 - **Sprint Planning:** Trello Board
