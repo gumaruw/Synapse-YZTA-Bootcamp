@@ -8,7 +8,7 @@
 | İsim | Rol |
 |------|-----|
 | Hasan BUDAK | Product Owner, Scrum Master, Developer |
-| Cemre Dağ | Developer, Product Owner, Scrum Master |
+| Cemre Dağ | Developer,Product Owner |
 | Yusuf Sait Sakoğlu | Developer |
 
 ## Proje Açıklaması
