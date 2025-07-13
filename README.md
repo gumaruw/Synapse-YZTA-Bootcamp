@@ -88,7 +88,7 @@ pip install -r requirements.txt
 - add it to the .env
  
 ```bash
-streamlit run app.py
+python -m streamlit run streamlit_app.py
 ```
 
 ## Proje Yönetimi
