@@ -34,11 +34,16 @@ Synapse, doktorların karmaşık tıbbi konuları hastalara (özellikle çocukla
 - **Kaçınılması Gereken Kelimeler:** Hassas kelimeler için alternatif öneriler
 
 ### 🔧 Teknik Özellikler
-
 - **AI Entegrasyonu:** Google Gemini 1.5 Flash
 - **Web Arayüzü:** Streamlit
 - **Dil:** Python
 - **Responsive Tasarım:** Mobil ve desktop uyumlu
+
+synapse/
+├── streamlit_app.py       # Ana uygulama
+├── requirements.txt       # Python paketleri
+├── .env                  # API anahtarları 
+├── config.py             # Yapılandırma dosyası
 
 ## Sprint Yapısı
 ### Sprint 1 (20.06.2025 - 06.07.2025) ✅
