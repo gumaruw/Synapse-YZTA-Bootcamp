@@ -1,7 +1,7 @@
-# YZTA-Bootcamp-Grup-134 - Synapse Projesi
+# YZTA Bootcamp Grup 134 - Synapse 
 
 ## Takım Bilgileri
-- **Takım Adı:** YZTA-Bootcamp-Grup-134
+- **Takım Adı:** YZTA Bootcamp Grup 134
 - **Proje Adı:** Synapse - Yapay Zeka Destekli Medikal Analoji Üreteci
 
 ### Takım Üyeleri
@@ -27,10 +27,18 @@ Synapse, doktorların karmaşık tıbbi konuları hastalara (özellikle çocukla
 - **Proje Yönetimi:** Trello
 
 ## Proje Özellikleri
+### 🎯 Ana Modüller
 - **Analoji Modülü:** Karmaşık tıbbi konuları basit analojilerle açıklama
 - **Görsel Hikaye Modülü:** Çizim ve hikaye önerileri
 - **Kişiselleştirme:** Hasta yaşı, ilgi alanları ve durumuna göre özelleştirme
 - **Kaçınılması Gereken Kelimeler:** Hassas kelimeler için alternatif öneriler
+
+### 🔧 Teknik Özellikler
+
+- **AI Entegrasyonu:** Google Gemini 1.5 Flash
+- **Web Arayüzü:** Streamlit
+- **Dil:** Python
+- **Responsive Tasarım:** Mobil ve desktop uyumlu
 
 ## Sprint Yapısı
 ### Sprint 1 (20.06.2025 - 06.07.2025) ✅
@@ -57,11 +65,26 @@ pip install streamlit google-generativeai python-dotenv
 
 ### Çalıştırma
 ```bash
-streamlit run app.py
+git clone https://github.com/gumaruw/YZTA-Bootcamp-Grup-134.git
+cd YZTA-Bootcamp-Grup-134
 ```
 
-### Kaggle Notebook
-Prototip geliştirme için kullanılan Kaggle notebook: 
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+- API key from https://aistudio.google.com/
+- add it to the .env
+ 
+```bash
+streamlit run app.py
+```
 
 ## Proje Yönetimi
 - **Sprint Planning:** Trello Board
@@ -73,13 +96,6 @@ Prototip geliştirme için kullanılan Kaggle notebook:
 - **Web Uygulaması:** Streamlit tabanlı interaktif arayüz
 - **API Entegrasyonu:** Gemini AI ile başarılı entegrasyon
 - **Analoji Örnekleri:** Diyabet, kırık kemik, kemoterapi gibi konular için üretilen analojiler
-
-## Lisans
-MIT License
-
-
-
-
 
 # Proje Synapse - Sprint 1 Değerlendirme Raporu
 
