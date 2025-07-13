@@ -72,21 +72,6 @@ st.markdown("""
         box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
     
-    .copy-button {
-        background: #667eea;
-        color: white;
-        padding: 0.5rem 1rem;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 0.9rem;
-        margin-top: 0.5rem;
-    }
-    
-    .copy-button:hover {
-        background: #5a67d8;
-    }
-    
     .stats-card {
         background: #f0f0f0;
         padding: 1rem;
@@ -450,10 +435,13 @@ def main():
                     st.write(f"**Hasta:** {entry['patient_profile']['age']}, {entry['patient_profile']['interest']}")
                     
                     if st.button(f"Tekrar Kullan {len(st.session_state.history) - i}", key=f"reuse_{i}"):
-                        st.session_state.reuse_topic = entry['medical_topic']
-                        st.session_state.reuse_age = entry['patient_profile']['age']
-                        st.session_state.reuse_interest = entry['patient_profile']['interest']
-                        st.experimental_rerun()
+                        # Tekrar kullanma özelliği için state'i güncelleyelim
+                        st.session_state.reuse_data = {
+                            'topic': entry['medical_topic'],
+                            'age': entry['patient_profile']['age'],
+                            'interest': entry['patient_profile']['interest']
+                        }
+                        st.rerun()
         else:
             st.info("Henüz sorgu geçmişi yok.")
             
