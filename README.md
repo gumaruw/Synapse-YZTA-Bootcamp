@@ -340,3 +340,110 @@ Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interakti
 <img width="1109" height="790" alt="Ekran Resmi 2025-07-20 14 11 52" src="https://github.com/user-attachments/assets/2319e789-3e90-4413-8116-938606ea127c" />
 
 **İşlevsellik:** Uygulama, kullanıcının kenar çubuğundan tıbbi konu, anahtar kavram, hasta yaşı...
+
+
+### SYNAPSE PROJESİ - DAILY SCRUM TOPLANTI KAYDI 1
+
+**Tarih:** 09.07.2025  
+**Sprint:** 2. Sprint, 3. Gün  
+**Katılımcılar:** Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu, Aydan Kaya
+
+---
+
+#### GÜNCELLEMELER
+
+1.  **Hasan BUDAK (Scrum Master):**
+    * **Dün ne yaptım?:** Sprint 2'nin tüm görevlerini Trello panosuna aktardım. Ekibe yeni katılan Aydan Kaya'nın proje reposuna ve Trello panosuna erişimini sağladım. Ekip ile bir tanışma ve görev dağılımı toplantısı organize ettim.
+    * **Bugün ne yapacağım?:** Streamlit arayüzü için temel bir wireframe (taslak çizim) hazırlayacağım. Cemre ve Aydan'ın görevlerini senkronize etmelerine yardımcı olacağım.
+    * **Herhangi bir engelleyici var mı?:** Şimdilik yok.
+
+2.  **Cemre DAĞ (Developer):**
+    * **Dün ne yaptım?:** Sprint 1'deki temel analoji üretme fonksiyonunu, Streamlit'te çalışacak şekilde yeniden düzenledim. `requirements.txt` dosyasını güncelledim.
+    * **Bugün ne yapacağım?:** Streamlit üzerinde ana uygulama iskeletini (`streamlit_app.py`) oluşturacağım. Başlık, kenar çubuğu (sidebar) gibi temel layout bileşenlerini ekleyeceğim.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+3.  **Yusuf Sait SAKOĞLU (Developer):**
+    * **Dün ne yaptım?:** Sprint 1'de geliştirdiğimiz prompt'u, yeni eklenecek "Görsel Hikaye" ve "Kelime Uyarıları" modüllerini de kapsayacak şekilde nasıl genişletebileceğimizi araştırdım.
+    * **Bugün ne yapacağım?:** Gemini'ye tek bir istekte üç farklı modül için çıktı ürettirecek yeni bir prompt (v2.0) taslağı hazırlayacağım.
+    * **Herhangi bir engelleyici var mı?:** Prompt'un karmaşıklığı arttıkça, çıktının tutarlılığını sağlamak zorlayıcı olabilir ama şu an bir engel yok.
+
+4.  **Aydan KAYA (Developer):**
+    * **Dün ne yaptım?:** Proje dokümantasyonunu ve Sprint 1 çıktılarını inceleyerek projeyi anladım. Gerekli kurulumları kendi ortamımda tamamladım.
+    * **Bugün ne yapacağım?:** Cemre ile koordineli olarak, kullanıcıdan girdileri (Tıbbi Konu, Yaş, İlgi Alanı) alacağımız Streamlit form bileşenlerini kenar çubuğuna eklemek üzerine çalışacağım.
+    * **Herhangi bir engelleyici var mı?:** Yok, ekibe adapte oluyorum.
+
+#### ALINAN KARARLAR / SONRAKİ ADIMLAR
+* Cemre ve Aydan, arayüzün temel yapısı üzerinde birlikte çalışacaklar.
+* Yusuf, yeni prompt yapısını tamamladığında test için ekiple paylaşacak.
+
+---
+
+### SYNAPSE PROJESİ - DAILY SCRUM TOPLANTI KAYDI 2
+
+**Tarih:** 15.07.2025  
+**Sprint:** 2. Sprint, 9. Gün  
+**Katılımcılar:** Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu, Aydan Kaya
+
+---
+
+#### GÜNCELLEMELER
+
+1.  **Hasan BUDAK (Scrum Master):**
+    * **Dün ne yaptım?:** Ekibin karşılaştığı Streamlit "session state" sorununu araştırdım ve birkaç çözüm önerisi sundum. Trello panosundaki tamamlanan görevleri güncelledim.
+    * **Bugün ne yapacağım?:** Sprint 2 raporu için taslak oluşturmaya başlayacağım. Ekibin herhangi bir ek ihtiyacı olup olmadığını kontrol edeceğim.
+    * **Herhangi bir engelleyici var mı?:** Session state sorunu çözüldüğü için şu an bir engelleyici yok.
+
+2.  **Cemre DAĞ (Developer):**
+    * **Dün ne yaptım?:** Yusuf'un hazırladığı v2.0 prompt'u kullanarak Gemini'den gelen çoklu modül çıktısını başarıyla aldım ve Streamlit arayüzünde ham olarak yazdırdım.
+    * **Bugün ne yapacağım?:** Gelen bu çıktıyı (Analoji, Hikaye, Kelimeler) parse edip arayüzdeki ilgili kartlara veya bölümlere düzgün bir şekilde yerleştireceğim.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+3.  **Yusuf Sait SAKOĞLU (Developer):**
+    * **Dün ne yaptım?:** Gelen ilk test çıktılarına göre v2.0 prompt'unda iyileştirmeler yaptım. Özellikle "Görsel Hikaye" modülünün adımlarını daha net vermesi için prompt'u düzenledim (v2.1).
+    * **Bugün ne yapacağım?:** Farklı hasta profilleri ve tıbbi konular için prompt'un tutarlılığını test etmeye devam edeceğim. Kenar durumları (edge cases) arıyorum.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+4.  **Aydan KAYA (Developer):**
+    * **Dün ne yaptım?:** Kullanıcı "Analoji Üret" butonuna bastığında bir yüklenme göstergesi (progress bar) ekledim. Ayrıca, Hasan'ın desteğiyle kullanıcı girdilerinin bir sonraki istek için hafızada tutulmasını sağlayan session state sorununu çözdük.
+    * **Bugün ne yapacağım?:** Arayüzün görsel tasarımını iyileştirmek için basit CSS düzenlemeleri yapacağım. Buton ve girdi alanlarının stillerini güncelleyeceğim.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+#### ALINAN KARARLAR / SONRAKİ ADIMLAR
+* Çıktıların arayüze yerleştirilmesi tamamlandığında tüm ekip birlikte bir kullanıcı deneyimi testi yapacak.
+
+---
+
+### SYNAPSE PROJESİ - DAILY SCRUM TOPLANTI KAYDI 3
+
+**Tarih:** 19.07.2025  
+**Sprint:** 2. Sprint, 13. Gün  
+**Katılımcılar:** Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu, Aydan Kaya
+
+---
+
+#### GÜNCELLEMELER
+
+1.  **Hasan BUDAK (Scrum Master):**
+    * **Dün ne yaptım?:** Sprint 2 raporunun taslağını tamamladım ve ekibin incelemesi için paylaştım. Trello'daki tüm görevlerin durumunu son kez kontrol ettim.
+    * **Bugün ne yapacağım?:** Ekip üyelerinden gelen geri bildirimlerle Sprint 2 raporuna son halini vereceğim. Sprint 3 için Trello panosunu oluşturmaya başlayacağım.
+    * **Herhangi bir engelleyici var mı?:** Yok, sprint hedeflerine ulaştık.
+
+2.  **Cemre DAĞ (Developer):**
+    * **Dün ne yaptım?:** Uygulamanın temel hata yönetimini (örn: API anahtarı yoksa uyarı ver) ekledim. Kodları temizledim ve yorum satırları ekleyerek daha anlaşılır hale getirdim.
+    * **Bugün ne yapacağım?:** Projenin son halinin ekran görüntülerini ve kısa bir ekran kaydını alıp Hasan'a ileteceğim. Sprint 3'te yapılacak UI/UX iyileştirmeleri için fikirleri not alacağım.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+3.  **Yusuf Sait SAKOĞLU (Developer):**
+    * **Dün ne yaptım?:** Geliştirdiğimiz prompt'un son halini (v2.2) ve nasıl çalıştığını anlatan kısa bir teknik dokümanı `README.md` dosyasına eklenmesi için hazırladım.
+    * **Bugün ne yapacağım?:** Sprint 3'te eklenebilecek daha fazla kişiselleştirme seçeneği (örn: yaşlılar için farklı ilgi alanları) üzerine araştırma yapacağım.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+4.  **Aydan KAYA (Developer):**
+    * **Dün ne yaptım?:** Uygulamanın farklı ekran boyutlarında (mobil, tablet) düzgün görünmesi için responsive tasarım testleri yaptım ve gerekli CSS düzeltmelerini tamamladım.
+    * **Bugün ne yapacağım?:** Uygulamadaki metinleri ve yardım bölümünü son kez gözden geçireceğim. Yazım hatası veya anlaşılmayan bir yer olup olmadığını kontrol edeceğim.
+    * **Herhangi bir engelleyici var mı?:** Yok.
+
+#### ALINAN KARARLAR / SONRAKİ ADIMLAR
+* Sprint 2'nin tüm hedefleri başarıyla tamamlandı.
+* Sprint raporu bugün gün sonuna kadar tamamlanacak.
+* Ekip, Sprint 3'ün planlama toplantısı için hazırlıklara başlayacak.
