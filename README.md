@@ -8,8 +8,9 @@
 | İsim | Rol |
 |------|-----|
 | Hasan BUDAK | Product Owner, Scrum Master, Developer |
-| Cemre Dağ | Developer,Product Owner |
-| Yusuf Sait Sakoğlu | Developer |
+| Cemre DAĞ | Developer,Product Owner |
+| Yusuf Sait SAKOĞLU | Developer |
+| Aydan KAYA | Developer |
 
 ## Proje Açıklaması
 Synapse, doktorların karmaşık tıbbi konuları hastalara (özellikle çocuklara, yaşlılara veya sağlık okuryazarlığı düşük bireylere) anlatmalarına yardımcı olmak için Google Gemini AI kullanarak kişiselleştirilmiş analojiler, metaforlar ve görsel hikaye fikirleri üreten bir web uygulamasıdır.
