@@ -257,6 +257,13 @@ Katılımcılar: Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu
 - Sprint 1 Raporu bugün (05.07) gün sonuna kadar tamamlanıp GitHub'a yüklenecek.
 - Sprint 1 resmi olarak başarılı kabul edildi.
 
+
+
+===================================================================================================================================================================================
+
+
+
+
 # Synapse Projesi - Sprint 2 Değerlendirme Raporu
 
 **Rapor Tarihi:** 20.07.2025  
