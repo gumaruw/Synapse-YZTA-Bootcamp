@@ -256,5 +256,24 @@ Katılımcılar: Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu
 - Sprint 1 Raporu bugün (05.07) gün sonuna kadar tamamlanıp GitHub'a yüklenecek.
 - Sprint 1 resmi olarak başarılı kabul edildi.
 
+# Synapse Projesi - Sprint 2 Değerlendirme Raporu
 
+**Rapor Tarihi:** 20.07.2025  
+**Sprint Dönemi:** 07.07.2025 - 20.07.2025  
+**Takım:** YZTA Bootcamp Grup 134
+
+---
+
+## 1. Yönetici Özeti
+Bu rapor, "Synapse" projesinin ikinci sprint dönemindeki hedeflerini, ulaşılan başarıları ve stratejik kararları özetlemektedir. Sprint 1'de teknik fizibilitesi kanıtlanan çekirdek yapay zeka fonksiyonelliği, bu sprint'in ana hedefi doğrultusunda, kullanıcıların doğrudan etkileşime geçebileceği, modern ve interaktif bir web uygulamasına başarıyla dönüştürülmüştür. Sprint sonunda, projenin temel modüllerini içeren ve çalışan bir web uygulaması (Minimum Viable Product - MVP) ortaya konmuştur.
+
+## 2. Sprint Notları ve Stratejik Kararlar
+### Ekip Genişlemesi
+Sprint 2'nin başında ekibimize Aydan Kaya'nın da "Developer" rolüyle katılmasıyla proje geliştirme kapasitemiz artırılmıştır. Yeni görev dağılımı, web arayüzü ve arka plan süreçlerinin paralel olarak ilerletilmesine olanak tanımıştır.
+
+### Teknoloji Seçimi
+Kaggle üzerinde doğrulanan temel mantığın kullanıcıya sunulması için, hızlı prototipleme ve kolay entegrasyon imkanları sunan **Streamlit** framework'ü web arayüzü için stratejik olarak tercih edilmiştir.
+
+### Fonksiyonel Geliştirme
+Proje, tek bir analoji üretiminden çıkarılarak; **Analoji Modülü**, **Görsel
 
