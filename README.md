@@ -353,7 +353,7 @@ Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interakti
 #### GÜNCELLEMELER
 
 1.  **Hasan BUDAK (Scrum Master):**
-    * **Dün ne yaptım?:** Sprint 2'nin tüm görevlerini Trello panosuna aktardım. Ekibe yeni katılan Aydan Kaya'nın proje reposuna ve Trello panosuna erişimini sağladım. Ekip ile bir tanışma ve görev dağılımı toplantısı organize ettim.
+    * **Dün ne yaptım?:** Sprint 2'nin tüm görevlerini Jira panosuna aktardım. Ekibe yeni katılan Aydan Kaya'nın proje reposuna ve Jira panosuna erişimini sağladım. Ekip ile bir tanışma ve görev dağılımı toplantısı organize ettim.
     * **Bugün ne yapacağım?:** Streamlit arayüzü için temel bir wireframe (taslak çizim) hazırlayacağım. Cemre ve Aydan'ın görevlerini senkronize etmelerine yardımcı olacağım.
     * **Herhangi bir engelleyici var mı?:** Şimdilik yok.
 
@@ -389,7 +389,7 @@ Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interakti
 #### GÜNCELLEMELER
 
 1.  **Hasan BUDAK (Scrum Master):**
-    * **Dün ne yaptım?:** Ekibin karşılaştığı Streamlit "session state" sorununu araştırdım ve birkaç çözüm önerisi sundum. Trello panosundaki tamamlanan görevleri güncelledim.
+    * **Dün ne yaptım?:** Ekibin karşılaştığı Streamlit "session state" sorununu araştırdım ve birkaç çözüm önerisi sundum. Jira panosundaki tamamlanan görevleri güncelledim.
     * **Bugün ne yapacağım?:** Sprint 2 raporu için taslak oluşturmaya başlayacağım. Ekibin herhangi bir ek ihtiyacı olup olmadığını kontrol edeceğim.
     * **Herhangi bir engelleyici var mı?:** Session state sorunu çözüldüğü için şu an bir engelleyici yok.
 
@@ -425,11 +425,11 @@ Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interakti
 
 1.  **Hasan BUDAK (Scrum Master):**
     * **Dün ne yaptım?:** Sprint 2 raporunun taslağını tamamladım ve ekibin incelemesi için paylaştım. Trello'daki tüm görevlerin durumunu son kez kontrol ettim.
-    * **Bugün ne yapacağım?:** Ekip üyelerinden gelen geri bildirimlerle Sprint 2 raporuna son halini vereceğim. Sprint 3 için Trello panosunu oluşturmaya başlayacağım.
+    * **Bugün ne yapacağım?:** Ekip üyelerinden gelen geri bildirimlerle Sprint 2 raporuna son halini vereceğim. Sprint 3'ün Jira panosunu hazırlamaya başlayacağım.
     * **Herhangi bir engelleyici var mı?:** Yok, sprint hedeflerine ulaştık.
 
 2.  **Cemre DAĞ (Developer):**
-    * **Dün ne yaptım?:** Uygulamanın temel hata yönetimini (örn: API anahtarı yoksa uyarı ver) ekledim. Kodları temizledim ve yorum satırları ekleyerek daha anlaşılır hale getirdim.
+    * **Dün ne yaptım?:** Uygulamanın temel hata yönetimini (örn: API anahtarı yoksa uyarı ver) ekledim. Kodları temizledim ve yorum satırları ekleyerek daha anlaşılır hale getirdim. Jira panosundaki tüm görevlerin "Tamamlandı" olarak işaretlenmesini sağladım.
     * **Bugün ne yapacağım?:** Projenin son halinin ekran görüntülerini ve kısa bir ekran kaydını alıp Hasan'a ileteceğim. Sprint 3'te yapılacak UI/UX iyileştirmeleri için fikirleri not alacağım.
     * **Herhangi bir engelleyici var mı?:** Yok.
 
