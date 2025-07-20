@@ -332,6 +332,11 @@ Sprint sonunda yapılan değerlendirmede, projenin çalışan bir MVP (Minimum V
 - Kullanıcıların daha fazla hasta profili (örn: yaşlı, farklı kültürel arkaplan) seçebilmesi için seçenekler artırılmalı.
 - Kullanıcıların doğrudan geri bildirimde bulunabileceği basit bir mekanizma eklenebilir.
 
-## 9. Proje Çıktısı Örneği
+## 9. Ürün Durumu ve Somut Çıktılar
 
-*[Sprint 2 Modül Çıktısı Ekran Görüntüsü Buraya Eklenecek]*
+Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interaktif bir Streamlit web uygulamasıdır.
+
+### Ana Uygulama Ekranı
+<img width="1109" height="790" alt="Ekran Resmi 2025-07-20 14 11 52" src="https://github.com/user-attachments/assets/2319e789-3e90-4413-8116-938606ea127c" />
+
+**İşlevsellik:** Uygulama, kullanıcının kenar çubuğundan tıbbi konu, anahtar kavram, hasta yaşı...
