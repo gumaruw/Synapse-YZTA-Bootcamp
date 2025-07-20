@@ -275,5 +275,53 @@ Sprint 2'nin başında ekibimize Aydan Kaya'nın da "Developer" rolüyle katılm
 Kaggle üzerinde doğrulanan temel mantığın kullanıcıya sunulması için, hızlı prototipleme ve kolay entegrasyon imkanları sunan **Streamlit** framework'ü web arayüzü için stratejik olarak tercih edilmiştir.
 
 ### Fonksiyonel Geliştirme
-Proje, tek bir analoji üretiminden çıkarılarak; **Analoji Modülü**, **Görsel
+Proje, tek bir analoji üretiminden çıkarılarak; **Analoji Modülü**, **Görsel Hikaye Modülü** ve **Kelime Uyarı Modülü**'nü içeren çoklu modül yapısına kavuşturulmuştur. Bu karar, ürünün değer önerisini zenginleştirmiştir.
 
+### Proje Yönetimi
+Görev takibi ve sprint planlaması için Trello panosu, teknik problemlerin takibi için ise GitHub Issues aktif olarak kullanılmaya devam edilmiştir.
+
+## 3. Performans Değerlendirmesi: Puanlama ve Gerçekleşme
+- **Sprint İçinde Tamamlanması Öngörülen Puan:** 80 Puan
+- **Sprint Sonunda Tamamlanan Puan:** 80 Puan (%100 Tamamlanma)
+- **Tahmin Mantığı:** Puanlama, bu sprint'in odak noktası olan web arayüzünün geliştirilmesi, temel modüllerin entegrasyonu ve kullanıcı deneyiminin başlangıç seviyesinde optimize edilmesi gibi kritik görevlere ağırlık verilerek yapılmıştır. Tüm hedeflere tam olarak ulaşılmıştır.
+
+## 4. Proje Yönetimi ve Süreç
+### Takım Koordinasyonu
+Ekibe yeni katılan üyemizle birlikte görev dağılımı yeniden planlanmış, günlük scrum toplantıları ile ekip içi senkronizasyon ve bilgi akışı en üst düzeyde tutulmuştur.
+
+### Sprint Süreci
+1. Sprint 2 hedeflerinin ve görevlerinin Trello panosuna aktarılması.
+2. Streamlit ile temel arayüz tasarımının ve layout'unun oluşturulması.
+3. Sprint 1'deki Gemini API mantığının Streamlit backend'ine entegre edilmesi.
+4. Çoklu modüllerin (Analoji, Hikaye, Kelimeler) arayüze eklenmesi ve API ile ilişkilendirilmesi.
+5. Kullanıcı girdilerine (yaş, ilgi alanı) göre kişiselleştirme özelliklerinin geliştirilmesi.
+6. Session state (oturum yönetimi) kullanılarak temel kullanıcı geçmişi takibinin sağlanması.
+
+## 5. Proje Yönetim Panosu (Sprint Board)
+Sprint boyunca görev takibi için Trello panosu aktif olarak kullanılmıştır. Haftalık demolar ve günlük ilerleme takibi bu pano üzerinden yönetilmiştir.
+
+## 6. Ürün Durumu ve Somut Çıktılar
+Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interaktif bir Streamlit web uygulamasıdır.
+
+- **İşlevsellik:** Uygulama, kullanıcının kenar çubuğundan tıbbi konu, anahtar kavram, hasta yaşı ve ilgi alanı gibi bilgileri girmesine olanak tanır. "Üret" butonuna basıldığında, uygulama Gemini API'sine istek gönderir ve üretilen Analoji, Görsel Hikaye ve Kelime Önerilerini arayüzde eş zamanlı olarak gösterir.
+- **Kullanıcı Deneyimi:** Arayüz, kullanıcıya anlık geri bildirimler (progress bar) sunar ve modern bir tasarıma sahiptir. Ayrıca, responsive yapısı sayesinde mobil cihazlarda da kullanılabilir.
+
+*[Sprint 2 Arayüz Ekran Görüntüsü Buraya Eklenecek]*
+
+## 7. Sprint Değerlendirmesi (Sprint Review)
+Sprint sonunda yapılan değerlendirmede, projenin çalışan bir MVP (Minimum Viable Product) seviyesine ulaştığı teyit edilmiştir. Kullanıcı dostu arayüz, çoklu modüllerin sorunsuz çalışması ve hızlı yanıt süresi gibi özellikler başarılı bulunmuştur. Sprint 3 için öncelik, mevcut ürünün kalitesini artırmak, kapsamlı hata yönetimi eklemek ve final demoya hazırlık yapmak olarak belirlenmiştir.
+
+## 8. Geriye Dönük Değerlendirme (Sprint Retrospective)
+### Güçlü Yönler
+- Streamlit seçimi, geliştirme sürecini ciddi anlamda hızlandıran doğru bir teknoloji kararıydı.
+- Modüler yapı, gelecekteki geliştirmeleri ve bakımı kolaylaştıracak sağlam bir temel oluşturdu.
+- Ekip içi iletişim ve koordinasyon, yeni üyenin katılımına rağmen mükemmel seviyedeydi.
+
+### Gelişim Alanları
+- API'den gelebilecek olası hataların yönetimi (Error Handling) daha kapsamlı hale getirilmeli.
+- Kullanıcıların daha fazla hasta profili (örn: yaşlı, farklı kültürel arkaplan) seçebilmesi için seçenekler artırılmalı.
+- Kullanıcıların doğrudan geri bildirimde bulunabileceği basit bir mekanizma eklenebilir.
+
+## 9. Proje Çıktısı Örneği
+
+*[Sprint 2 Modül Çıktısı Ekran Görüntüsü Buraya Eklenecek]*
