@@ -315,8 +315,9 @@ Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interakti
 
 - **İşlevsellik:** Uygulama, kullanıcının kenar çubuğundan tıbbi konu, anahtar kavram, hasta yaşı ve ilgi alanı gibi bilgileri girmesine olanak tanır. "Üret" butonuna basıldığında, uygulama Gemini API'sine istek gönderir ve üretilen Analoji, Görsel Hikaye ve Kelime Önerilerini arayüzde eş zamanlı olarak gösterir.
 - **Kullanıcı Deneyimi:** Arayüz, kullanıcıya anlık geri bildirimler (progress bar) sunar ve modern bir tasarıma sahiptir. Ayrıca, responsive yapısı sayesinde mobil cihazlarda da kullanılabilir.
+<img width="1109" height="790" alt="Ekran Resmi 2025-07-20 14 11 52" src="https://github.com/user-attachments/assets/de459e71-df0f-4d1e-8d3b-f434a61b3921" />
 
-*[Sprint 2 Arayüz Ekran Görüntüsü Buraya Eklenecek]*
+
 
 ## 7. Sprint Değerlendirmesi (Sprint Review)
 Sprint sonunda yapılan değerlendirmede, projenin çalışan bir MVP (Minimum Viable Product) seviyesine ulaştığı teyit edilmiştir. Kullanıcı dostu arayüz, çoklu modüllerin sorunsuz çalışması ve hızlı yanıt süresi gibi özellikler başarılı bulunmuştur. Sprint 3 için öncelik, mevcut ürünün kalitesini artırmak, kapsamlı hata yönetimi eklemek ve final demoya hazırlık yapmak olarak belirlenmiştir.
@@ -332,14 +333,12 @@ Sprint sonunda yapılan değerlendirmede, projenin çalışan bir MVP (Minimum V
 - Kullanıcıların daha fazla hasta profili (örn: yaşlı, farklı kültürel arkaplan) seçebilmesi için seçenekler artırılmalı.
 - Kullanıcıların doğrudan geri bildirimde bulunabileceği basit bir mekanizma eklenebilir.
 
-## 9. Ürün Durumu ve Somut Çıktılar
+## 9.Proje Çıktısı
+<img width="633" height="749" alt="Ekran Resmi 2025-07-20 14 35 58" src="https://github.com/user-attachments/assets/a26daef5-d63d-4a1c-a20d-042d344a96b7" />
 
-Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interaktif bir Streamlit web uygulamasıdır.
 
-### Ana Uygulama Ekranı
-<img width="1109" height="790" alt="Ekran Resmi 2025-07-20 14 11 52" src="https://github.com/user-attachments/assets/2319e789-3e90-4413-8116-938606ea127c" />
 
-**İşlevsellik:** Uygulama, kullanıcının kenar çubuğundan tıbbi konu, anahtar kavram, hasta yaşı...
+
 
 
 ### SYNAPSE PROJESİ - DAILY SCRUM TOPLANTI KAYDI 1
