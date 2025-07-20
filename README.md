@@ -103,6 +103,8 @@ python -m streamlit run streamlit_app.py
 - **API Entegrasyonu:** Gemini AI ile başarılı entegrasyon
 - **Analoji Örnekleri:** Diyabet, kırık kemik, kemoterapi gibi konular için üretilen analojiler
 
+  --- 🚀 SPRINT 1 🚀 ---
+
 # Proje Synapse - Sprint 1 Değerlendirme Raporu
 
 Rapor Tarihi: 06.07.2025
@@ -259,7 +261,7 @@ Katılımcılar: Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu
 
 
 
-===================================================================================================================================================================================
+--- 🚀 SPRINT 2 🚀 ---
 
 
 
