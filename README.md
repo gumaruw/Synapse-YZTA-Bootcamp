@@ -309,6 +309,9 @@ Ekibe yeni katılan üyemizle birlikte görev dağılımı yeniden planlanmış,
 
 ## 5. Proje Yönetim Panosu (Sprint Board)
 Sprint 2 boyunca Jira panomuz, takımın ilerlemesini ve görev durumunu anlık olarak takip etmek için merkezi bir rol oynamıştır. Sprint başında, "Web Arayüzü Geliştirme", "Çoklu Modül Entegrasyonu" ve "Kullanıcı Girdileri" gibi ana başlıklar altındaki tüm görevler "To Do" sütununa eklenmiştir. Sprint ortasına gelindiğinde, "Streamlit Layout" ve "API Entegrasyonu" gibi temel görevler "Done" sütununa taşınırken, "Session State Yönetimi" ve "Modül Görüntüleme" görevleri "In Progress" olarak güncellenmiştir. Sprint sonunda, planlanan 80 puanlık tüm görevlerin başarıyla tamamlanarak "Done" sütununa taşındığı Jira panosu üzerinden teyit edilmiştir.
+<img width="1214" height="761" alt="Ekran Resmi 2025-07-21 19 52 11" src="https://github.com/user-attachments/assets/7d0b0ca2-f394-4ace-aa93-6b6736059249" />
+
+
 
 ## 6. Ürün Durumu ve Somut Çıktılar
 Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interaktif bir Streamlit web uygulamasıdır.
