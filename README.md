@@ -308,7 +308,7 @@ Ekibe yeni katılan üyemizle birlikte görev dağılımı yeniden planlanmış,
 6. Session state (oturum yönetimi) kullanılarak temel kullanıcı geçmişi takibinin sağlanması.
 
 ## 5. Proje Yönetim Panosu (Sprint Board)
-Sprint boyunca görev takibi için Trello panosu aktif olarak kullanılmıştır. Haftalık demolar ve günlük ilerleme takibi bu pano üzerinden yönetilmiştir.
+Sprint 2 boyunca Jira panomuz, takımın ilerlemesini ve görev durumunu anlık olarak takip etmek için merkezi bir rol oynamıştır. Sprint başında, "Web Arayüzü Geliştirme", "Çoklu Modül Entegrasyonu" ve "Kullanıcı Girdileri" gibi ana başlıklar altındaki tüm görevler "To Do" sütununa eklenmiştir. Sprint ortasına gelindiğinde, "Streamlit Layout" ve "API Entegrasyonu" gibi temel görevler "Done" sütununa taşınırken, "Session State Yönetimi" ve "Modül Görüntüleme" görevleri "In Progress" olarak güncellenmiştir. Sprint sonunda, planlanan 80 puanlık tüm görevlerin başarıyla tamamlanarak "Done" sütununa taşındığı Jira panosu üzerinden teyit edilmiştir.
 
 ## 6. Ürün Durumu ve Somut Çıktılar
 Sprint 2 sonunda ortaya çıkan ürün, canlı olarak test edilebilen, interaktif bir Streamlit web uygulamasıdır.
