@@ -561,6 +561,43 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 
 ---
 
+# SYNAPSE PROJESİ - DAILY SCRUM TOPLANTI KAYDI 1
+
+**Tarih:** 26.07.2025  
+**Sprint:** 3. Sprint, 3. Gün  
+**Katılımcılar:** Hasan BUDAK (Scrum Master), Cemre Dağ, Yusuf Sait Sakoğlu, Aydan Kaya
+
+---
+
+## 🔄 GÜNCELLEMELER
+
+### 🧑‍💼 Hasan BUDAK (Scrum Master)
+- **Dün ne yaptım?:** Sprint 3 için görev kartlarını Jira'ya aktardım ve roadmap’e göre güncelledim. Google Gemini entegrasyonundaki throttling hatasını araştırmaya başladım.  
+- **Bugün ne yapacağım?:** Gemini API sınırlarıyla ilgili Google dökümantasyonunu detaylı inceleyeceğim ve olası bir retry mechanism önerisi hazırlayacağım.  
+- **Engelleyici var mı?:** Henüz değil, ancak API sınırı potansiyel engel olabilir.
+
+### 👩 Cemre DAĞ (Developer)
+- **Dün ne yaptım?:** Yeni arayüz bileşenleri için Figma üzerinden bir taslak hazırladım ve ekipten geri bildirim topladım.  
+- **Bugün ne yapacağım?:** Streamlit bileşenleri için bu taslakları kodlamaya başlayacağım. Öncelik “Hasta Tipi Seç” modülü.  
+- **Engelleyici var mı?:** Hayır.
+
+### 👨 Yusuf Sait SAKOĞLU (Developer)
+- **Dün ne yaptım?:** Prompt’lara kullanıcıdan gelen “yaş, kronik hastalık” gibi bilgileri dahil edecek şekilde yeni bir yapı önerdim ve ilk testleri yaptım.  
+- **Bugün ne yapacağım?:** Prompt'un çıktılarında tutarlılığı koruyacak şekilde yeniden yapılandırma yapacağım. Ayrıca hallucination riski olan yerleri tespit etmeye çalışacağım.  
+- **Engelleyici var mı?:** Yok.
+
+### 👩 Aydan KAYA (Developer)
+- **Dün ne yaptım?:** Kullanıcının giriş yaptığı verileri session içinde koruyan yeni bir dictionary yapısı önerdim ve test ettim.  
+- **Bugün ne yapacağım?:** Bu verilerin arayüzde farklı bölümlerde çağrılmasını sağlayacağım. Ayrıca, görsel düzenlemelere devam edeceğim.  
+- **Engelleyici var mı?:** Hayır.
+
+---
+
+## ✅ ALINAN KARARLAR / SONRAKİ ADIMLAR
+- Prompt geliştirmeleri ile UI geliştirmeleri paralel ilerleyecek.  
+- 29.07.2025 tarihinde tüm modüller arası veri akışı test edilecek.
+
+
 # SYNAPSE PROJESİ - DAILY SCRUM TOPLANTI KAYDI 2
 **Tarih:** 28.07.2025  
 **Sprint:** 3. Sprint, 5. Gün  
@@ -570,7 +607,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 
 ## GÜNCELLEMELER
 
-### Hasan BUDAK (Scrum Master)
+### 🧑‍💼Hasan BUDAK (Scrum Master)
 - **Dün ne yaptım?**  
   Prompt akışıyla ilgili edge-case senaryoları kontrol ettim ve ekip için checklist önerisi hazırladım.  
 - **Bugün ne yapacağım?**  
@@ -578,7 +615,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 - **Engelleyici var mı?**  
   Şu anda yok.
 
-### Cemre DAĞ (Developer)
+### 👩 Cemre DAĞ (Developer)
 - **Dün ne yaptım?**  
   Arayüze kullanıcıdan alınan verileri düzgün gösteren bir özet kartı ekledim.  
 - **Bugün ne yapacağım?**  
@@ -586,7 +623,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 - **Engelleyici var mı?**  
   Hayır.
 
-### Yusuf Sait SAKOĞLU (Developer)
+###👨 Yusuf Sait SAKOĞLU (Developer)
 - **Dün ne yaptım?**  
   Prompt v3.0 üzerine çalıştım. Verilen örnek çıktılarla regresyon testi başlattım.  
 - **Bugün ne yapacağım?**  
@@ -594,7 +631,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 - **Engelleyici var mı?**  
   Şimdilik yok.
 
-### Aydan KAYA (Developer)
+###👩 Aydan KAYA (Developer)
 - **Dün ne yaptım?**  
   Streamlit üzerinde görsel çıktıların gösterimi için sekmeli yapı kurdum.  
 - **Bugün ne yapacağım?**  
@@ -604,7 +641,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 
 ---
 
-## ALINAN KARARLAR / SONRAKİ ADIMLAR
+## ✅ ALINAN KARARLAR / SONRAKİ ADIMLAR
 - Her modül için ayrı validasyon testi yapılacak.  
 - **30.07.2025** tarihinde küçük bir demo testi yapılması planlanıyor.
 
@@ -619,7 +656,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 
 ## GÜNCELLEMELER
 
-### Hasan BUDAK (Scrum Master)
+### 🧑‍💼Hasan BUDAK (Scrum Master)
 - **Dün ne yaptım?**  
   Kullanıcı test senaryoları hazırladım ve demo gününü organize ettim. Geri bildirim formlarını Notion’a aktardım.  
 - **Bugün ne yapacağım?**  
@@ -627,7 +664,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 - **Engelleyici var mı?**  
   Yok.
 
-### Cemre DAĞ (Developer)
+### 👩 Cemre DAĞ (Developer)
 - **Dün ne yaptım?**  
   Demo arayüzü için stil güncellemeleri ve küçük hata düzeltmeleri yaptım.  
 - **Bugün ne yapacağım?**  
@@ -635,7 +672,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 - **Engelleyici var mı?**  
   Hayır.
 
-### Yusuf Sait SAKOĞLU (Developer)
+### 👨Yusuf Sait SAKOĞLU (Developer)
 - **Dün ne yaptım?**  
   Demo için “Görsel Hikaye” çıktılarının doğruluk testini yaptım.  
 - **Bugün ne yapacağım?**  
@@ -643,7 +680,7 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 - **Engelleyici var mı?**  
   Uzmanla randevu ayarlamak zaman alabilir.
 
-### Aydan KAYA (Developer)
+### 👩Aydan KAYA (Developer)
 - **Dün ne yaptım?**  
   Demo sırasında yaşanan küçük bug'ları çözdüm, özellikle modüller arası geçişte yaşanan veri kaybı sorununu giderdim.  
 - **Bugün ne yapacağım?**  
@@ -653,6 +690,6 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 
 ---
 
-## ALINAN KARARLAR / SONRAKİ ADIMLAR
+## ✅ ALINAN KARARLAR / SONRAKİ ADIMLAR
 - Geri bildirimler doğrultusunda son düzenlemeler yapılacak.  
 - **02.08.2025** tarihinde mini final sunumu için içerik taslağı oluşturulacak.
