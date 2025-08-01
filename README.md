@@ -555,9 +555,13 @@ Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyes
 
 ## 9. Proje Çıktısı Örneği
 
+![PHOTO-2025-08-01-23-24-46](https://github.com/user-attachments/assets/7f75678f-868c-4e04-9443-7f40747957f5)
 
 
-*Sprint 3 Modül Çıktı Ekran Görüntüsü Buraya Eklenecek*
+![PHOTO-2025-08-01-23-24-00](https://github.com/user-attachments/assets/2603d20b-ffc4-406d-904f-a451c88b0bf2)
+
+
+
 
 ---
 
