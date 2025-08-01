@@ -451,7 +451,6 @@ Sprint sonunda yapılan değerlendirmede, projenin çalışan bir MVP (Minimum V
 * Ekip, Sprint 3'ün planlama toplantısı için hazırlıklara başlayacak.
 
 
-
 # Synapse Projesi - Sprint 3 Final Değerlendirme Raporu
 
 **Rapor Tarihi:** 03.08.2025  
@@ -511,4 +510,52 @@ Sprint boyunca günlük stand-up toplantılarıyla görevlerin durumu gözden ge
 
 ## 5. Proje Yönetim Panosu (Sprint Board)
 
-Sprint 3 boyunca **Jira** aktif olarak kullanılmıştır. Aşağıda örnek ekran görüntüleri *[eklenecektir]*. Ayrıca demo hazırlıkları ve test senaryoları da Jira üzerinden izl
+Sprint 3 boyunca **Jira** aktif olarak kullanılmıştır. Aşağıda örnek ekran görüntüleri *[eklenecektir]*. Ayrıca demo hazırlıkları ve test senaryoları da Jira üzerinden izlenmiştir.
+
+---
+
+## 6. Ürün Durumu ve Somut Çıktılar
+
+Sprint 3 sonunda proje, tamamlanmış ve sunuma hazır bir web uygulaması haline gelmiştir. Ürün, modern bir arayüz, yüksek doğrulukla çalışan modüller ve kişiselleştirme özellikleriyle dikkat çekmektedir.
+
+- **İşlevsellik:** Kullanıcı, tıbbi konu, yaş, anahtar kelime gibi verileri girerek anında Analoji, Görsel Hikaye ve Kelime Uyarıları alabilmektedir.
+- **Kullanıcı Deneyimi:** Aydan Kaya tarafından yapılan geliştirmelerle kullanıcı arayüzü daha sezgisel, erişilebilir ve mobil uyumlu hale getirilmiştir. Arayüz, gradient zeminler, kart yerleşimi ve ilerleme göstergeleriyle modernleştirilmiştir.
+- **Performans:** API yanıt süresi 3-5 saniye aralığına optimize edilmiştir.
+
+*Sprint 3 Arayüz Ekran Görüntüsü ve Jira Board Eklenecek*
+
+---
+
+## 7. Sprint Değerlendirmesi (Sprint Review)
+
+Sprint sonunda yapılan değerlendirmede, ürünün **production-ready** seviyesinde olduğu onaylanmıştır. Sunum, demo videosu ve canlı gösterim materyalleri başarıyla hazırlanmıştır. Kullanıcı akışları test edilmiş ve geri bildirimlere göre küçük iyileştirmeler yapılmıştır.
+
+### Öne Çıkan Başarılar:
+- Arayüzün profesyonel görünüme kavuşması  
+- Yüksek hata toleransı ile çalışan sistem  
+- Mobil ve masaüstü uyumluluğu  
+- Kullanıcıdan gelen her girdiye karşılık anında yanıt üretme  
+
+---
+
+## 8. Geriye Dönük Değerlendirme (Sprint Retrospective)
+
+### Güçlü Yönler
+- Takım içi görev dağılımı net ve etkilidir.  
+- Tanıtım materyallerinin zamanında ve kaliteli şekilde üretilmesi, dış iletişimde büyük avantaj sağlamıştır.  
+- Kullanıcı deneyimi odaklı iyileştirmeler ürün değerini artırmıştır.  
+
+### Gelişim Alanları
+- Daha fazla test senaryosu üretilerek otomasyon düzeyi artırılabilir.  
+- API rate limit senaryoları için alternatif gecikme yönetimi geliştirilebilir.  
+- Gelecekte ürün yayına alınacaksa, veri gizliliği açısından daha kalıcı bir oturum yönetimi tasarlanmalıdır.  
+
+---
+
+## 9. Proje Çıktısı Örneği
+
+
+
+*Sprint 3 Modül Çıktı Ekran Görüntüsü Buraya Eklenecek*
+
+---
