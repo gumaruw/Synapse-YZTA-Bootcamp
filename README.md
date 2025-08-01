@@ -522,7 +522,8 @@ Sprint 3 sonunda proje, tamamlanmış ve sunuma hazır bir web uygulaması halin
 - **Kullanıcı Deneyimi:** Aydan Kaya tarafından yapılan geliştirmelerle kullanıcı arayüzü daha sezgisel, erişilebilir ve mobil uyumlu hale getirilmiştir. Arayüz, gradient zeminler, kart yerleşimi ve ilerleme göstergeleriyle modernleştirilmiştir.
 - **Performans:** API yanıt süresi 3-5 saniye aralığına optimize edilmiştir.
 
-*Sprint 3 Arayüz Ekran Görüntüsü ve Jira Board Eklenecek*
+<img width="1230" height="792" alt="Ekran Resmi 2025-08-01 23 08 14" src="https://github.com/user-attachments/assets/95d90416-dc6a-4802-bcb6-0a972d363581" />
+
 
 ---
 
