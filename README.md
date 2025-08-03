@@ -20,6 +20,9 @@ Synapse, doktorların karmaşık tıbbi konuları hastalara (özellikle çocukla
 - Tıp Fakültesi Öğrencileri
 - Sağlık Çalışanları
 
+  [Ürün Geri Logu için buraya tıklayın](Product_Backlog.md)
+
+
 ## Teknoloji Stack
 - **Backend:** Python, FastAPI
 - **Frontend:** Streamlit
