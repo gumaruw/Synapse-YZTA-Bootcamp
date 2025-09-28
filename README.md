@@ -117,5 +117,5 @@ python -m streamlit run streamlit_app.py
 - **Analoji Örnekleri:** Diyabet, kırık kemik, kemoterapi gibi konular için üretilen analojiler
 
 ## Belgeler
-[Sprint_Details.md](Sprint_Details.md)
+[Sprint_Details.md](Sprint_Details.md)  
 [Product Backlog](Product_Backlog.md)
