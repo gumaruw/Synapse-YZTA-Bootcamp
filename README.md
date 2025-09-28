@@ -84,7 +84,7 @@ pip install streamlit google-generativeai python-dotenv
 ```
 
 ```bash
-git clone https://github.com/gumaruw/YZTA-Bootcamp-Synapse.git
+git clone https://github.com/gumaruw/Synapse-YZTA-Bootcamp.git
 cd YZTA-Bootcamp-Synapse
 ```
 
